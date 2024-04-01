@@ -1,16 +1,18 @@
-import { Home } from "./pages/Home";
-import { Play } from "./pages/Play";
+import { Home } from "./pages/home/Home";
+import { Play } from "./pages/play/Play";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/play" element={<Play />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="p-10">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/play" element={<Play />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
