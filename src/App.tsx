@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="p-10">
+    <div className="px-10">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

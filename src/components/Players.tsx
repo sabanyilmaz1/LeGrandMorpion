@@ -6,13 +6,13 @@ const size = [
   },
   {
     type: "medium",
-    width: 32,
-    height: 32,
+    width: 48,
+    height: 48,
   },
   {
     type: "large",
-    width: 32,
-    height: 32,
+    width: 200,
+    height: 200,
   },
 ];
 
